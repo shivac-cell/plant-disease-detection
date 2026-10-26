@@ -1,0 +1,63 @@
+# Python Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets
+.env
+*.env.local
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# User Uploads
+static/uploads/*
+!static/uploads/.gitkeep
+frontend/static/uploads/*
+!frontend/static/uploads/.gitkeep
+
+# Machine Learning Artifacts & Datasets (for ML phases)
+models/backups/
+models/final_candidate.keras
+models/candidates/*.keras
+model/*.h5
+model/*.keras
+model/*.onnx
+model/*.tflite
+model/*.pkl
+model/*.pt
+model/*.pth
+!model/.gitkeep
+!models/.gitkeep
+
+dataset/*
+!dataset/.gitkeep
+
+reports/*
+!reports/.gitkeep
+
+# Raw archives & downloaded dataset folders
+*.zip
+*.tar.gz
+*.rar
+blackgram_repo.zip
+blackgram_extracted/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

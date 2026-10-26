@@ -1,0 +1,33 @@
+# ==============================================================================
+# Plant Disease Detection and Smart Pesticide & Fertilizer Recommendation System
+# Requirements
+# ==============================================================================
+
+# Interactive Streamlit AI Dashboard
+streamlit>=1.30.0
+
+# Core Web Framework (Flask Portal)
+Flask>=3.0.0,<3.1.0
+Flask-WTF>=1.2.0,<1.4.0
+email-validator>=2.0.0,<2.4.0
+
+# Environment Variable Management
+python-dotenv>=1.0.0,<2.0.0
+
+# MySQL Connector for Python
+mysql-connector-python>=8.0.33
+
+# Image Processing, Data Handling & Verification
+Pillow>=10.0.0,<14.0.0
+pandas>=2.0.0
+numpy>=1.24.0,<2.0.0
+
+# Deep Learning Framework & Mathematical Computing
+tensorflow>=2.15.0,<2.18.0
+
+# Evaluation Metrics & Visualizations
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+
+# Automated Testing Framework
+pytest>=7.4.0
